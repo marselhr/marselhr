@@ -1,3 +1,4 @@
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=marselhr.visitor-badge&format=true" />
 ### Greeting! 👋 I'm Marsel.
   
 ### Github Statistic
