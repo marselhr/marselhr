@@ -1,6 +1,6 @@
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=marselhr.marselhr" />
 
-### [![Typing SVG](https://readme-typing-svg.demolab.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=5000&lines=Greeting!👋+I'm+Marsel+)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=5000&lines=Greeting!👋+I'm+Marsel+)](https://git.io/typing-svg)
 
 
 <h2 align="center">⚒️ Language-Framework-Tools ⚒️</h2>
