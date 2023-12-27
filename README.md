@@ -15,7 +15,7 @@
 
 <br/>
 
-<img alt="snake eating my contibutions" src="https://raw.githubusercontent.com/marselhr/marselhr/output/github-contribution-grid-snake-dark.svg" />
+<img alt="snake eating my contibutions" src="https://raw.githubusercontent.com/marselhr/marselhr/output/github-contribution-grid-snake.svg" />
 
 <h2 align="center"> 📊 Github Stats 📊 </h2>
 <p align="center">
