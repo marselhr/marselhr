@@ -10,7 +10,7 @@
 </div>
 
 
-<h2 align="center">🐍 My Contribution🐍</h2>
+<h2 align="center">🐍 My Contributions🐍</h2>
 
 
 <br/>
