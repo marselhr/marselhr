@@ -2,14 +2,13 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=5000&lines=Hi+There!👋+I'm+Marsel+)](https://git.io/typing-svg)
 
-<h3 align="center">A passionate Web developer</h3>
-<center>
+<h3 align="center">🔥A passionate Web developer🔥</h3>
 
  🔭 I’m currently working on [Zemilan-Po-App](https://github.com/marselhr/zemilan-po-app) <br/>
  🌱 I’m currently learning **Laravel, NodeJs, HapiJs, VueJs** <br/>
  📫 How to reach me **marselinus.hr@gmail.com**
-</center>
-<p align="center">
+ 
+<p align="left">
 <a href="https://linkedin.com/in/marselinus-harson-rewo-813166273" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="marselinus harson rewo" height="30" width="40" /></a>
 <a href="https://instagram.com/marselinus.hr" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="marselinus.hr" height="30" width="40" /></a>
 </p>
