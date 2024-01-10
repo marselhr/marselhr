@@ -3,7 +3,8 @@
     height: 83vh;
     margin-bottom: 6rem;
   }
-  .about-containers {
+  .about-containers,
+  .experience-container {
     flex-wrap: wrap;
   }
   #contact,
@@ -44,6 +45,15 @@
   }
   .about-containers {
     margin-top: 0;
+  }
+  .article-container {
+    justify-content: left;
+  }
+  .article-container article {
+    justify-content: left;
+  }
+  .project-containers {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -99,5 +109,9 @@
   }
   .text-container {
     text-align: justify;
+  }
+
+  .project-containers {
+    grid-template-columns: 1fr;
   }
 }
