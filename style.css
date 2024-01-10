@@ -238,6 +238,7 @@ section {
 .btn-color-1,
 .btn-color-2 {
   border: rgb(53, 53, 53) 0.1rem solid;
+  box-shadow: 0.5px 5px rgb(53, 53, 53);
 }
 
 .btn-color-1:hover,
@@ -251,8 +252,12 @@ section {
   color: white;
 }
 
+.btn-color-1 {
+  background: #ffd43b;
+  color: rgb(53, 53, 53);
+}
 .btn-color-1:hover {
-  background: rgb(0, 0, 0);
+  background: #fab005;
 }
 
 .btn-color-2 {
@@ -260,6 +265,8 @@ section {
 }
 
 .btn-color-2:hover {
+  background: #d0ebff;
+  color: rgb(53, 53, 53);
   border: rgb(255, 255, 255) 0.1rem solid;
 }
 
@@ -306,6 +313,7 @@ section {
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
+  box-shadow: 0.5px 3px rgb(53, 53, 53);
 }
 
 .section-container {
@@ -362,14 +370,14 @@ article .icon {
 /* PROJECTS SECTION */
 
 #projects {
-  margin-top: 2rem;
+  margin-top: 5rem;
   position: relative;
 }
 
 .project-containers {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
+  grid-template-columns: repeat(3, 0.5fr);
+  gap: 1rem;
   justify-content: space-around;
 }
 .color-container {
@@ -381,7 +389,7 @@ article .icon {
   margin: auto;
   width: 90%;
   border-radius: 2rem;
-  height: 26rem;
+  height: 20rem;
 }
 
 .project-title {

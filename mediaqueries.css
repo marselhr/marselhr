@@ -52,6 +52,7 @@
   .article-container article {
     justify-content: left;
   }
+
   .project-containers {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -110,7 +111,6 @@
   .text-container {
     text-align: justify;
   }
-
   .project-containers {
     grid-template-columns: 1fr;
   }
