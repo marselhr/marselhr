@@ -164,22 +164,27 @@ section {
 /* PROFILE SECTION */
 
 #profile {
+  overflow-x: hidden;
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
 }
 
 .section__pic-container {
   display: flex;
   height: 400px;
   width: 400px;
-  margin: auto 0;
 }
-.section__pic-container img {
+.section__pic-container .profile_picture {
   border-radius: 50%;
   object-fit: cover;
   object-position: center;
+  border: 2px solid rgb(53, 53, 53);
+  box-shadow: 0 0.25rem rgb(53, 53, 53);
+  background-color: #ffd43b;
+}
+.section__pic-container .profile_picture:hover {
+  background-color: #fab005;
 }
 
 .section__text {
@@ -330,6 +335,7 @@ section {
 /* EXPERIENCE SECTION */
 
 #experience {
+  margin-top: 2rem;
   position: relative;
 }
 

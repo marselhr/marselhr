@@ -8,10 +8,11 @@
   <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="mediaqueries.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
-  <nav id="desktop-nav">
+  <nav id="desktop-nav" data-aos="fade-down">
     <div class="logo">MHR</div>
     <div>
       <ul class="nav-links">
@@ -38,9 +39,9 @@
       </div>
     </div>
   </nav>
-  <section id="profile">
+  <section id="profile" data-aos="fade-up">
     <div class="section__pic-container">
-      <img src="./assets/profil.jpeg" alt="Marsel profile picture" />
+      <img src="./assets/profil.png" class="profile_picture" alt="Marsel profile picture" />
     </div>
     <div class="section__text">
       <p class="section__text__p1">Hello, I'm</p>
@@ -62,27 +63,27 @@
       </div>
     </div>
   </section>
-  <section id="about">
+  <section id="about" data-aos="fade-up">
     <p class="section__text__p1">Get To Know More</p>
     <h1 class="title">About Me</h1>
     <div class="section-container">
-      <div class="section__pic-container">
+      <div class="section__pic-container" data-aos="fade-zoom-out" data-aos-delay="500">
         <img src="./assets/about-pic.jpg" alt="Profile picture" class="about-pic" />
       </div>
       <div class="about-details-container">
         <div class="about-containers">
-          <div class="details-container">
+          <div class="details-container" data-aos="fade-right" data-aos-delay="300">
             <img src="./assets/experience.png" alt="Experience icon" class="icon" />
             <h3>Experience</h3>
             <p>1+ years <br />Web Development</p>
           </div>
-          <div class="details-container">
+          <div class="details-container" data-aos="fade-left" data-aos-delay="300">
             <img src="./assets/education.png" alt="Education icon" class="icon" />
             <h3>Education</h3>
             <p>Ganesha University of Education<br />Information System. Bachelor Degree</p>
           </div>
         </div>
-        <div class="text-container">
+        <div class="text-container" data-aos="fade-up" data-aos-delay="500">
           <p>
             An Information Systems student with more than 1 year of experience in web development. Familiar with
             frameworks such as CodeIgniter and Laravel. Proven by developing new features on the HMJ-TI Undiksha
@@ -94,7 +95,7 @@
     </div>
     <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
   </section>
-  <section id="experience">
+  <section id="experience" data-aos="fade-up">
     <p class="section__text__p1">Explore My</p>
     <h1 class="title">Experience & Skills</h1>
     <div class="experience-details-container">
@@ -158,6 +159,13 @@
                 <p>Experienced</p>
               </div>
             </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Postman</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
           </div>
         </div>
         <div class="details-container">
@@ -197,14 +205,14 @@
     </div>
     <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
   </section>
-  <section id="projects">
+  <section id="projects" data-aos="fade-up">
     <p class="section__text__p1">Browse My Recent</p>
     <h1 class="title">Projects</h1>
     <div class="experience-details-container">
       <div class="project-containers">
-        <div class="details-container color-container">
+        <div class="details-container color-container" data-aos="fade-up">
           <div class="article-container">
-            <img src="./assets/dummy.jpg" alt="Project 1" class="project-img" />
+            <img src="./assets/1032.jpg" alt="Project 1" class="project-img" />
           </div>
           <h2 class="experience-sub-title project-title">Bookshelf API</h2>
           <div class="btn-container">
@@ -217,7 +225,7 @@
             </button>
           </div>
         </div>
-        <div class="details-container color-container">
+        <div class="details-container color-container" data-aos="fade-up">
           <div class="article-container">
             <img src="./assets/dummy.jpg" alt="Project 2" class="project-img" />
           </div>
@@ -232,7 +240,7 @@
             </button>
           </div>
         </div>
-        <div class="details-container color-container">
+        <div class="details-container color-container" data-aos="fade-up">
 
           <div class="article-container">
             <img src="./assets/e-library.png" alt="Project 3" class="project-img" />
@@ -247,9 +255,9 @@
             </button>
           </div>
         </div>
-        <div class="details-container color-container">
+        <div class="details-container color-container" data-aos="fade-up">
           <div class="article-container">
-            <img src="./assets/e-library.png" alt="Project 3" class="project-img" />
+            <img src="./assets/zemilan.jpg" alt="Project 3" class="project-img" />
           </div>
           <h2 class="experience-sub-title project-title">Zemilanpo</h2>
           <div class="btn-container">
@@ -262,15 +270,24 @@
             </button>
           </div>
         </div>
-        <div class="details-container color-container">
+        <div class="details-container color-container" data-aos="fade-up">
           <div class="article-container">
-            <img src="./assets/e-library.png" alt="Project 3" class="project-img" />
+            <img src="./assets/1032.jpg" alt="Simple CMS" class="project-img" />
           </div>
           <h2 class="experience-sub-title project-title">Simple CMS</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn">
+              Description
+            </button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/marselhr/simple-cms'">
+              Github
+            </button>
+          </div>
         </div>
-        <div class="details-container color-container">
+        <div class="details-container color-container" data-aos="fade-up">
           <div class="article-container">
-            <img src="./assets/e-library.png" alt="Project 3" class="project-img" />
+            <img src="./assets/dummy.jpg" alt="Project 3" class="project-img" />
           </div>
           <h2 class="experience-sub-title project-title">EORS HMJ-TI</h2>
         </div>
@@ -278,7 +295,7 @@
     </div>
     <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
   </section>
-  <section id="contact">
+  <section id="contact" data-aos="fade-up">
     <p class="section__text__p1">Get in Touch</p>
     <h1 class="title">Contact Me</h1>
     <div class="contact-info-upper-container">
@@ -287,7 +304,7 @@
         <p><a href="mailto:marselinus.hr@gmail.com">marselinus.hr@gmail.com</a></p>
       </div>
       <div class="contact-info-container">
-        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon linkedin-icon" />
         <p><a href="https://linkedin.com/in/marselinus-harson-rewo-813166273" target="_blank">LinkedIn</a></p>
       </div>
     </div>
@@ -305,6 +322,7 @@
     </nav>
     <p>Copyright &#169; 2024 Marselinus. All Rights Reserved.</p>
   </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="script.js"></script>
 </body>
 
