@@ -5,7 +5,7 @@
 <h3 align="left">🔥A passionate Web developer🔥</h3>
 
  🔭 I’m currently working on [Zemilan-Po-App](https://github.com/marselhr/zemilan-po-app) <br/>
- 🌱 I’m currently learning **Laravel, NodeJs, HapiJs, VueJs** <br/>
+ 🌱 I’m currently learning **Docker, Laravel, NodeJs, HapiJs, VueJs** <br/>
  📫 How to reach me **marselinus.hr@gmail.com**
  
 <p align="left">
