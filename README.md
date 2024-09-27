@@ -5,7 +5,7 @@
 <h3 align="left">🔥A passionate Web developer🔥</h3>
 
  🔭 I’m currently working on [Pilih Jurusan API](https://github.com/pilihjurusan) <br/>
- 🌱 I’m currently learning **Docker, Laravel, NodeJs, HapiJs, VueJs** <br/>
+ 🌱 I’m currently learning **Docker, Laravel, NodeJs, HapiJs, React** <br/>
  📫 How to reach me **marselinus.hr@gmail.com**
  
 <p align="left">
