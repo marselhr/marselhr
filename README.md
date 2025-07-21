@@ -16,7 +16,7 @@
 <h2 align="center">⚒️ Language-Framework-Tools ⚒️</h2>
 <br/>
 <div align="center">
-    <img src="https://skillicons.dev/icons?i=html,css,tailwind,bootstrap,figma,bash,js,jquery,vue,react,php,laravel,nodejs,expressjs,java,dart,ruby,mongodb,mysql,docker,vscode,postman,git,gitlab,aws,powershell&perline=6" />
+    <img src="https://skillicons.dev/icons?i=html,css,tailwind,bootstrap,figma,bash,js,jquery,vue,react,php,laravel,nodejs,expressjs,java,dart,ruby,rails,mongodb,mysql,docker,vscode,postman,git,gitlab,aws,powershell&perline=6" />
 </div>
 
 
